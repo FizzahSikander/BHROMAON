@@ -39,14 +39,27 @@
             <div class="pageone-footer">
                 <text class="logo">Bhromaon</text>
             </div>
-            <nav class="nav">
+            <nav class="nav" id="nav-bar">
                 <ul class="nav__list">
                     <li class="nav__li"><a class="nav__link" href="#">Who We Are</a></li>
                     <li class="nav__li"><a class="nav__link" href="#">What We Do</a></li>
                     <li class="nav__li"><a class="nav__link" href="#">Travel With Us</a></li>
                     <li class="nav__li"><a class="nav__link" href="#">Contact Us</a></li>
+                    <li class="nav__li"><a class="icon" onclick="burgerMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a></li>
                 </ul>
             </nav>
+            <script>
+                function burgerMenu() {
+                    let burger = document.getElementById("nav-bar");
+                    if (burger.className === "nav") {
+                        burger.className += " responsive";
+                    } else {
+                        burger.className = "nav";
+                    }
+                }
+            </script>
         </section>
         <section class="second-page">
             <div class="secondpage_container">
@@ -66,11 +79,11 @@
                 <div class="grid__container">
                     <div class="grid__first">
                         <div class="overlay"></div>
-                        <img src="images/hut.png" alt="dancing-girl" class="pic">
+                        <img src="images/hut.png" alt="hut" class="pic">
                     </div>
                     <div class="grid__second">
                         <div class="overlay"></div>
-                        <img src="images/mountains.png" alt="boy-inthoughts" class="pic">
+                        <img src="images/mountains.png" alt="mountains" class="pic">
                     </div>
                 </div>
             </div>
@@ -94,6 +107,7 @@
                     <p>Book & Enjoy</p>
                 </div>
             </div>
+        </section>
     </main>
 </body>
 
