@@ -1,0 +1,54 @@
+.second-page {
+    max-width: 1770px;
+    min-height: 685px;
+    background-image: url(../images/secondpage-background.png);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.secondpage_container-title {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    /* identical to box height, or 72% */
+    color: #FFFFFF;
+}
+
+.secondpage_container-info {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    max-width: 560px;
+    min-height: 79px;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
+
+.secondpage-button {
+    width: 228px;
+    height: 63px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    background-color: #5474FD;
+    color: #FFFFFF;
+
+}
+
+.secondpage_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 50px;
+}
