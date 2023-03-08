@@ -1,0 +1,11 @@
+.fourth-page {
+    background-image: url(../images/fourth-page.png);
+    max-width: 1770px;
+    min-height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
