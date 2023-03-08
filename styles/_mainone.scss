@@ -21,6 +21,7 @@ header {
 
 .label-page {
     display: flex;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -28,6 +29,8 @@ header {
 
 .first-page {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     flex-direction: column;
     align-content: center;
     justify-content: center;

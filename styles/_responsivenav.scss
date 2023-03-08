@@ -54,7 +54,25 @@
         display: block;
         text-align: left;
     }
+
+    .label-page {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .textarea {
+        width: 320px;
+        height: 63px;
+    }
+
+    .header-info {
+        margin-left: 10px;
+    }
 }
+
 
 .info {
     padding-left: 15px;
