@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <script src="https://kit.fontawesome.com/20b631fd69.js" crossorigin="anonymous"></script>
     <title>BHROMAON</title>
+    <link rel="icon" type="image/x-icon" href="images/icons8-favorite-16.png">
 </head>
 
 <body>
@@ -39,17 +40,16 @@
             <div class="pageone-footer">
                 <text class="logo">Bhromaon</text>
             </div>
-            <nav class="nav" id="nav-bar">
-                <ul class="nav__list">
-                    <li class="nav__li"><a class="nav__link" href="#">Who We Are</a></li>
-                    <li class="nav__li"><a class="nav__link" href="#">What We Do</a></li>
-                    <li class="nav__li"><a class="nav__link" href="#">Travel With Us</a></li>
-                    <li class="nav__li"><a class="nav__link" href="#">Contact Us</a></li>
-                    <li class="nav__li"><a class="icon" onclick="burgerMenu()">
-                            <i class="fa fa-bars"></i>
-                        </a></li>
-                </ul>
-            </nav>
+            <div class="nav" id="nav-bar">
+                <a href="#" class="active">Who We Are</a>
+                <a href="#">What We Do</a>
+                <a href="#">Contact</a>
+                <a href="#">Travel With Us</a>
+                <a href="#">Contact Uss</a>
+                <a class="icon" onclick="burgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
             <script>
                 function burgerMenu() {
                     let burger = document.getElementById("nav-bar");

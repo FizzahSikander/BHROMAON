@@ -5,11 +5,16 @@
 .nav a {
     float: left;
     display: block;
-    color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    text-transform: uppercase;
+    color: white;
 }
 
 .nav a:hover {
@@ -17,10 +22,6 @@
     color: black;
 }
 
-.nav a.active {
-    background-color: #52B788;
-    color: white;
-}
 
 .nav .icon {
     display: none;
@@ -32,6 +33,7 @@
     }
 
     .nav a.icon {
+        float: right;
         display: block;
     }
 }
@@ -48,35 +50,12 @@
     }
 
     .nav.responsive a {
-        float: none;
+        float: inline-start;
         display: block;
         text-align: left;
     }
+}
 
-    .nav {
-        margin-right: 0px;
-
-        &__list {
-            display: flex;
-            flex-direction: column;
-        }
-
-        &__li {
-            list-style: none;
-        }
-
-        &__link {
-            font-family: 'Aleo';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 10px;
-            line-height: 12px;
-            /* identical to box height, or 186% */
-            text-transform: uppercase;
-            color: #FFFFFF;
-            margin-left: 0px;
-            text-decoration: none;
-            text-decoration: none;
-        }
-    }
+.info {
+    padding-left: 15px;
 }
